@@ -187,7 +187,8 @@
                         "name": "${NAME}",
                         "labels": {
                             "app": "${NAME}",
-                            "name": "${NAME}"
+                            "name": "${NAME}",
+                            "plexxi.scheduling": "disable"
                         }
                     },
                     "spec": {
