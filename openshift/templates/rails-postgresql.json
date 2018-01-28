@@ -189,7 +189,7 @@
                         "labels": {
                             "app": "${NAME}",
                             "name": "${NAME}",
-                            "plexxi": "adjacent"
+                            "plexxi": "disable"
                         }
                     },
                     "spec": {
@@ -357,7 +357,7 @@
                         "labels": {
                             "app": "${DATABASE_SERVICE_NAME}",
                             "name": "${DATABASE_SERVICE_NAME}",
-                            "plexxi": "adjacent"
+                            "plexxi": "disable"
                         }
                     },
                     "spec": {
