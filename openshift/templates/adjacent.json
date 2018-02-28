@@ -179,7 +179,7 @@
                         "type": "ConfigChange"
                     }
                 ],
-                "replicas": 1,
+                "replicas": 3,
                 "selector": {
                     "name": "${NAME}"
                 },
@@ -347,7 +347,7 @@
                         "type": "ConfigChange"
                     }
                 ],
-                "replicas": 1,
+                "replicas": 3,
                 "selector": {
                     "name": "${DATABASE_SERVICE_NAME}"
                 },
