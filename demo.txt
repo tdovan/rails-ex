@@ -1,0 +1,4 @@
+oc login os-master-1.ilab.plexxi.com:8443 -u demo -p demo
+oc new-project local9
+oc new-app openshift/templates/local.9.json -p SOURCE_REPOSITORY_URL=https://github.com/bri365/rails-ex
+oc get pods -o wide
