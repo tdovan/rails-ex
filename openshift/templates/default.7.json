@@ -18,8 +18,7 @@
     "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/openshift/rails-ex/blob/master/README.md.",
     "labels": {
         "template": "rails-postgresql-example",
-        "app": "rails-postgresql-example",
-        "plexxi": "default"
+        "app": "rails-postgresql-example"
     },
     "objects": [{
             "kind": "Secret",
@@ -179,7 +178,7 @@
                         "type": "ConfigChange"
                     }
                 ],
-                "replicas": 1,
+                "replicas": 7,
                 "selector": {
                     "name": "${NAME}"
                 },
@@ -188,8 +187,7 @@
                         "name": "${NAME}",
                         "labels": {
                             "app": "${NAME}",
-                            "name": "${NAME}",
-                            "plexxi": "default"
+                            "name": "${NAME}"
                         }
                     },
                     "spec": {
@@ -356,8 +354,7 @@
                         "name": "${DATABASE_SERVICE_NAME}",
                         "labels": {
                             "app": "${DATABASE_SERVICE_NAME}",
-                            "name": "${DATABASE_SERVICE_NAME}",
-                            "plexxi": "default"
+                            "name": "${DATABASE_SERVICE_NAME}"
                         }
                     },
                     "spec": {
