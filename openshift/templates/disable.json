@@ -19,7 +19,7 @@
     "labels": {
         "template": "rails-postgresql-example",
         "app": "rails-postgresql-example",
-        "plexxi": "disable"
+        "proximity": "disable"
     },
     "objects": [{
             "kind": "Secret",
@@ -189,7 +189,7 @@
                         "labels": {
                             "app": "${NAME}",
                             "name": "${NAME}",
-                            "plexxi": "disable"
+                            "proximity": "disable"
                         }
                     },
                     "spec": {
@@ -357,7 +357,7 @@
                         "labels": {
                             "app": "${DATABASE_SERVICE_NAME}",
                             "name": "${DATABASE_SERVICE_NAME}",
-                            "plexxi": "disable"
+                            "proximity": "disable"
                         }
                     },
                     "spec": {
